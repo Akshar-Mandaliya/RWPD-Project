@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" scontent="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<title>B1</title>
+</head>
+<body class="bg-danger border border-5 border-warning">
+
+   <div class="container my-3 bg-light border border-5 border-dark"> 
+   <h6 class="text-success">RESPONSIVE WEB PAGE</h6>
+
+   <div class="container-fluid  text-white mt-4">
+   
+            
+           
+            <ul class="nav nav-tabs" id="unitTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="unit1-tab" data-toggle="tab" href="b1.html" role="tab" aria-controls="b1" aria-selected="true">computer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="unit2-tab" data-toggle="tab" href="b2.html" role="tab" aria-controls="electrical" aria-selected="false">electrical</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="unit3-tab" data-toggle="tab" href="#civil" role="tab" aria-controls="civil" aria-selected="false">civil</a>
+                </li>
+            </ul>
+           
+            <div class="tab-content" id="unitContent">
+                <h2 class="card-header text-center text-primary">TEXT CLASS</h2>
+     <h3><li class="text-dark mt-4"><i>Bootstrap can apply text formating using predefinrd css classes.Bootstrap provides servel classes that can be used to style text elements in a consistent and flexible mannerthat allow you a modify the apperance of text.</i></li></h3>
+      <h4><li class="text-dark mt-4">here are some examples of bootstrap text formating classes.</li></h4>
+      <div class="border border-primary">
+      <H5><li class="text-dark mt-4">TEXT-PRIMARY :- this class sets the text color to a primary color defined by bootstrap. it is useful for highlighting important information. </li></H5>
+      
+              <h5><li class="text-dark mt-4">Example:</li></h5>
+      <h5 class="text-primary text-center"><b>welcome to your website!</b></h5>
+      </div>
+      <div class="border border-secondary mt-4">
+       <H5><li class="text-dark mt-4">TEXT-SECONDARY :- this class sets the text color to a secondary color defined by bootstrap. it is useful for highlighting important information </li></H5>
+      
+      <h5><li class="text-dark mt-4">Example:</li></h5>
+      <h5 class="text-secondary text-center"><b>welcome to your website!</b></h5>
+      </div>
+      <div class="border border-success mt-4">
+       <H5> <li class="text-dark mt-4">TEXT-SUCCESS :- this class sets the text color to a success color defined by bootstrap. it is useful for highlighting important information </li></H5>
+      
+      <h5><li class="text-dark mt-4">Example:</li></h5>
+      <h5 class="text-success text-center"><b>welcome to your website!</b></h5>
+      </div>
+      <div class="border border-danger mt-4">
+        <H5><li class="text-dark mt-4">TEXT-DANGER :- this class sets the text color to a danger color defined by bootstrap. it is useful for highlighting important information </li></H5>
+      
+      <h5><li class="text-dark mt-4">Example:</li></h5>
+      <h5 class="text-danger text-center"><b>welcome to your website!</b></h5>
+    </div>
+    <div class="border border-warning mt-4">
+            <H5>  <li class="text-dark mt-4">TEXT-WARNING :- this class sets the text color to a text-warning color defined by bootstrap. it is useful for highlighting important information </li></H5>
+      
+      <h5><li class="text-dark mt-4">Example:</li></h5>
+      <h5 class="text-warning text-center"><b>welcome to your website!</b></h5>
+    </div>
+            
+ 
+    <div class="tab-pane fade" id="b2.html" role="tabpanel" aria-labelledby="electrical-tab">
+        <link src="b2.html" alt="">
+    <h2 class="card-header text-center text-primary">TABLE CLASS</h2>
+    <h3><li class="text-dark"><i>The bootstrap framework provides a table class that allows you to create responsive and visually appealing tables on your web page.The tables class offers various features and options for customizing the apperence and functionality of the table.Let me provide you with an example to demonstrate how to use the table class in bootstrap.</i></li></h3>
+    <div class="container border border-dark">
+     <h2 class="card-header text-center text-primary mt-4">BASIC TABLE </h2>
+    <h4> <li class="text-dark mt-4">The bootstrap framework provides a table class that allows you to create responsive and visually appealing tables on your web page.The table class offers various features and options for customizing the apperance and functionality of the table.Let me provide with an example to demonstrate how to use the table class in bootstrap.</li></h4>
+       <p class="mt-4">The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
+       <table class="table">
+         <thead>
+           <tr>
+             <th>Firstname</th>
+             <th>Lastname</th>
+             <th>Email</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>John</td>
+             <td>Doe</td>
+             <td>john@example.com</td>
+           </tr>
+           <tr>
+             <td>Mary</td>
+             <td>Moe</td>
+             <td>mary@example.com</td>
+           </tr>
+           <tr>
+             <td>July</td>
+             <td>Dooley</td>
+             <td>july@example.com</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+<h1 class="table table-stripped"></h1>
+<div class="container border border-primary">
+ <h2 class="card-header text-center text-primary mt-4">STRIPPED ROWS</h2>
+ <h4><li class="text-dark mt-4">In bootstrap,the table table-stripped class is used to add zebra-stripping to a table.Zebra-stripping refers to the alternating background colors of rows in a table.</li></h4>
+   <p class="mt-4">The .table-striped class adds zebra-stripes to a table:</p>            
+   <table class="table table-striped">
+     <thead>
+       <tr>
+         <th>Firstname</th>
+         <th>Lastname</th>
+         <th>Email</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>John</td>
+         <td>Doe</td>
+         <td>john@example.com</td>
+       </tr>
+       <tr>
+         <td>Mary</td>
+         <td>Moe</td>
+         <td>mary@example.com</td>
+       </tr>
+       <tr>
+         <td>July</td>
+         <td>Dooley</td>
+         <td>july@example.com</td>
+       </tr>
+     </tbody>
+   </table>
+ </div>
+ <div class="container border border-danger mt-4">
+   <h2 class="card-header text-center text-primary mt-4">BORDERED TABLE</h2>
+   <h4><p class="mt-4">The .table-bordered class adds borders to a table:</p></h4>           
+   <table class="table table-bordered">
+     <thead>
+       <tr>
+         <th>Firstname</th>
+         <th>Lastname</th>
+         <th>Email</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>John</td>
+         <td>Doe</td>
+         <td>john@example.com</td>
+       </tr>
+       <tr>
+         <td>Mary</td>
+         <td>Moe</td>
+         <td>mary@example.com</td>
+       </tr>
+       <tr>
+         <td>July</td>
+         <td>Dooley</td>
+         <td>july@example.com</td>
+       </tr>
+     </tbody>
+   </table>
+ </div>
+ <div class="container border border-secondary mt-4">
+   <h2 class="card-header text-center text-primary mt-4">HOVER TABLE</h2>
+   <h4><li class="text-dark mt-4">In the table bootstrap framework the table-hover class is used to add a hover effect to tables.When applied,it adds a background color to the rows when the user hovers over them with the mouse pointer.</li></h4>
+   <p class="mt-4">The .table-hover class enables a hover state on table rows:</p>            
+   <table class="table table-hover">
+     <thead>
+       <tr>
+         <th>Firstname</th>
+         <th>Lastname</th>
+         <th>Email</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>John</td>
+         <td>Doe</td>
+         <td>john@example.com</td>
+       </tr>
+       <tr>
+         <td>Mary</td>
+         <td>Moe</td>
+         <td>mary@example.com</td>
+       </tr>
+       <tr>
+         <td>July</td>
+         <td>Dooley</td>
+         <td>july@example.com</td>
+       </tr>
+     </tbody>
+   </table>
+ </div>
+ <div class="container border border-warning mt-4">
+   <h2 class="card-footer text-primary text-center mt-4">CONTEXTUAL CLASSES</h2>
+   <h4><li class="text-dark mt-4">The table class in bootstrap provides a set of styling options to create tables with diiferent row colors.By using contextual classes,you can align specific background colors to indivisual rows to different them visually.Bootstrap provides contextual class like table(primary,secondary,danger,warning,success,dark)</li></h4>
+   <table class="table">
+     <thead>
+       <tr>
+         <th>product 1</th>
+         <th>descripation</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr class="table-primary">
+         <td>product 1</td>
+         <td>short descripation of product 1.</td>
+       </tr>
+       <tr class="table-danger">
+         <td>product 2</td>
+         <td>short descripation of product 2.</td>
+       </tr>
+       <tr class="table-warning">
+         <td>product 3</td>
+         <td>short descripation of product 3.</td>
+       </tr>
+       <tr class="table-success">
+         <td>product 4</td>
+         <td>short descripation of product 4.</td>
+       </tr>
+     </tbody>
+   </table>
+ </div>
+ <div class="container mt-4 border border-success">
+   <h2 class="card-header text-center text-primary">image with table and descripation</h2>
+<h4><li class="text-dark mt-4">In bootstrap,you can create responsive images that automatically adjust their size and behavior based on the screen size or device.Bootstrap provides a various classes to style responsive images.Here are a few examples of different styles for responsive images in bootstrap.</li></h4>
+   <table class="table-responsive">
+     <table class="table">
+       <thead>
+       <tr>
+         <th>produce</th>
+         <th>descripation</th>
+         <th>image</th>
+       </tr>
+</thead>
+ <tbody>
+   <tr>
+     <td>product 1</td>
+     <td>short descripation of product 1.</td>
+     <td><img src="photo(1).webp" class="rounded mx-auto d-block" height="56px" width="56px" alt="responsive image"></td>
+   </tr>
+   <tr>
+     <td>product 2</td>
+     <td>short descripation of product 2.</td>
+     <td><img src="photo(5).webp" class="rounded mx-auto d-block" height="56px" width="56px" alt="responsive image"></td>
+   </tr>
+   <tr>
+     <td>product 3</td>
+     <td>short descripation of product 3.</td>
+     <td><img src="photo(3).webp" class="rounded mx-auto d-block" height="56px" width="56px" alt="responsive image"></td>
+   </tr>
+ </tbody>
+     </table>
+   </table>
+ </div>
+ </div>
+            
+                <div class="tab-pane fade" id="civil" role="tabpanel" aria-labelledby="civil-tab">
+                    <h2>civil introduction</h2>
+                    <p>design and implement structures that are used in everyday life such as bridges, roads and water supply systems. </p>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+</body>
+</html>
